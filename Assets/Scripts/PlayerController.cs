@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
         characterMovement.Move(direction); //pj se mueve
 
         // Crouch
-        bool isCrouching = Input.GetKey(KeyCode.LeftControl);
+        bool isCrouching = Input.GetKey(KeyCode.LeftShift);
         characterMovement.Crouch(isCrouching);
 
         // Animaciones
