@@ -8,6 +8,14 @@ public class PlayerController : MonoBehaviour
     public CameraController cameraController;
     public CharacterAnimation characterAnimation;
 
+    public Transform cameraTransform;
+
+
+    void Start()
+    {
+        // Asignar el transform de la camara al CharacterMovement
+        characterMovement.cameraTransform = cameraTransform;
+    }
     void Update()
     {
         // Movimiento del personaje

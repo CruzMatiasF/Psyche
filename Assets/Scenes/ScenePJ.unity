@@ -836,6 +836,37 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.3
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1303701729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1303701730}
+  m_Layer: 0
+  m_Name: handPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1303701730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303701729}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2, y: 0.12, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2075464926}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1416612073
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,6 +1352,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1858289673}
+  - {fileID: 1303701730}
   m_Father: {fileID: 2144787334}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2075464928
@@ -1387,6 +1419,7 @@ MonoBehaviour:
   throwingForce: 10
   maxThrowingForce: 40
   forceIncreaseSpeed: 8
+  crouchHandPosition: {fileID: 1303701730}
 --- !u!1001 &2144787328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1548,6 +1581,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 2
+  cameraTransform: {fileID: 963194228}
+  crouchCameraOffset: {x: 0, y: -0.4, z: 0.25}
 --- !u!4 &2144787334 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 622832f83b3b2ea4e8b0fbb41791f38c, type: 3}
@@ -1594,6 +1629,7 @@ MonoBehaviour:
   characterMovement: {fileID: 2144787332}
   cameraController: {fileID: 2144787336}
   characterAnimation: {fileID: 2144787337}
+  cameraTransform: {fileID: 963194228}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

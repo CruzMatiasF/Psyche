@@ -19,8 +19,8 @@ public class CameraController : MonoBehaviour
             Vector3 rotation = camera.localEulerAngles;
             rotation.x = (rotation.x - ver * sensitivity.y + 360) % 360;
             //restriccion de rotacion vertical por angulos
-            if (rotation.x > 70 && rotation.x < 180) rotation.x = 70;
-            else if (rotation.x < 290 && rotation.x > 180) rotation.x = 290;
+            if (rotation.x > 60 && rotation.x < 180) rotation.x = 60;
+            else if (rotation.x < 300 && rotation.x > 180) rotation.x = 300;
 
             camera.localEulerAngles = rotation;
         }

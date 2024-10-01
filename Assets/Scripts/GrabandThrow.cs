@@ -9,17 +9,27 @@ public class GrabandThrow : MonoBehaviour
     private GameObject pickedObject = null;
     
     public float throwingForce = 5f; // Fuerza inicial de lanzamiento
-    public float maxThrowingForce = 20f; // Max fuerza de lanzamiento
+    public float maxThrowingForce = 10f; // Max fuerza de lanzamiento
     public float forceIncreaseSpeed = 8f; // Velocidad fuerza
     private float currentThrowingForce = 0f; // Fuerza actual
     private bool isChargingThrow = false; 
 
-
+    private bool isCrouching = false; // para detectar si est agachado
+    public Transform crouchHandPosition; // Nueva pos para la mano al agacharse
     // Update is called once per frame
     void Update()
     {
         if (pickedObject != null)
         {
+            // Actualizar la pos del objeto dependiendo de si estamos agachados o no
+            if (isCrouching)
+            {
+                pickedObject.transform.position = crouchHandPosition.position;
+            }
+            else
+            {
+                pickedObject.transform.position = handPoint.transform.position;
+            }
             // Si se presiona la tecla de espacio se empieza a cargar la fuerza para lanzar
             if (Input.GetKey(KeyCode.Space))
             {
@@ -51,6 +61,9 @@ public class GrabandThrow : MonoBehaviour
                 TryPickupObject();
             }
         }
+
+        // Detecta si el personaje esta agachado
+        isCrouching = Input.GetKey(KeyCode.LeftShift);
     }
 
     void TryPickupObject()
