@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6e8f084096b7564485b619222ddccd42
     GuidInternal: 
-    m_lastTime: -8584735942933092230
+    m_lastTime: -8584735928351025026
     List:
     - name: MainPrueba
       guid: 620c4a376b013b4d98aff2c97c1065a4
@@ -111,8 +111,8 @@ MonoBehaviour:
         guid: d2aba3e2a0ac4047999cd29a187de426
       Path: Events\Default Work Unit\Play_tema01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 38.4
+      minDuration: 38.4
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +170,7 @@ MonoBehaviour:
     m_lastTime: -8584736059807897036
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000b0000000c0000004d0000004e0000000001000001010000
+  ExpandedWaapiItemIds: 06000000070000000b0000000c0000004d0000004e000000950000009600000000010000010100002e0100002f010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

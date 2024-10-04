@@ -9,9 +9,9 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="884543156" Type="User" Language="SFX" Hash="{E86ABC78-0F67-EE31-9154-120C60831A70}">
-			<ShortName>MainPruebas</ShortName>
-			<Path>MainPruebas.bnk</Path>
+		<SoundBank Id="1211944573" Type="User" Language="SFX" Hash="{4C68EE83-1AE2-B59C-DD0A-C5DCC7C4B2BD}">
+			<ShortName>MainPrueba</ShortName>
+			<Path>MainPrueba.bnk</Path>
 			<Media>
 				<File Id="929002771" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>tema01.wav</ShortName>
@@ -40,5 +40,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E5B93515-7CA7-EA35-33FD-AF0C9B28505B}</FileHash>
+	<FileHash>{396A6D5A-CE68-7F21-5F26-51CA1D8879C4}</FileHash>
 </SoundBanksInfo>
