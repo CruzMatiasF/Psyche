@@ -9,16 +9,34 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1211944573" Type="User" Language="SFX" Hash="{5ECA40B0-5A00-1562-1C89-31213AA5C0DE}">
+		<SoundBank Id="1211944573" Type="User" Language="SFX" Hash="{E9BA7660-55FD-4C47-BFC3-60E43EEAD5B3}">
 			<ShortName>MainPrueba</ShortName>
 			<Path>MainPrueba.bnk</Path>
 			<Media>
+				<File Id="631196902" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>spaceship-ambient.wav</ShortName>
+					<CachePath>SFX/spaceship-ambient_8E2DAFF2.wem</CachePath>
+				</File>
 				<File Id="929002771" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>tema01.wav</ShortName>
 					<CachePath>SFX/tema01_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="956614318" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Maxwell-the-Cat-Theme.wav</ShortName>
+					<CachePath>SFX/Maxwell-the-Cat-Theme_FBC78EF0.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="3984220127" Name="Play_ambient01" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="631196902"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3075419951" Name="Play_maxtheme" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="956614318"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="963472260" Name="Play_tema01" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="929002771"/>
@@ -40,5 +58,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E975EBEB-05B7-C9D6-6970-2B178B80C9EC}</FileHash>
+	<FileHash>{3D4A3C0C-A6D8-C157-FF77-1184E30444D7}</FileHash>
 </SoundBanksInfo>

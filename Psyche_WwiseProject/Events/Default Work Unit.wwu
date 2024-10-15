@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_maxtheme" ID="{46E54423-B0E8-4AE8-B4AC-85F2D0930811}">
+					<ChildrenList>
+						<Action Name="" ID="{FE8098EA-A7D1-418E-ADEF-66676C94D144}" ShortID="534373315">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Maxwell-the-Cat-Theme" ID="{BC86B027-19EA-438E-969F-4F78097EB34D}" WorkUnitID="{80FE0468-845B-4A40-B544-130A6E09588E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ambient01" ID="{781184E9-F1F9-4138-9307-6541160A9DB9}">
+					<ChildrenList>
+						<Action Name="" ID="{B86EA41C-BD50-422E-8BC4-19E5F7285BD3}" ShortID="802051597">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient01" ID="{E51861F2-74D5-4034-9764-27DF066133FC}" WorkUnitID="{80FE0468-845B-4A40-B544-130A6E09588E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

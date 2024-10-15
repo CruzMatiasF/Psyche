@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMBIENT01 = 3984220127U;
+        static const AkUniqueID PLAY_MAXTHEME = 3075419951U;
         static const AkUniqueID PLAY_TEMA01 = 963472260U;
     } // namespace EVENTS
 

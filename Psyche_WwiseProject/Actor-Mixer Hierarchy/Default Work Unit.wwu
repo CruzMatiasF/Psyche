@@ -6,6 +6,7 @@
 				<Sound Name="tema01" ID="{1D85C7DB-AEA5-41C2-BD88-413F034F63FC}" ShortID="651955493">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -26,6 +27,70 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="tema01" ID="{1580FE4D-05E0-4275-8096-89F9195C4BFD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Maxwell-the-Cat-Theme" ID="{BC86B027-19EA-438E-969F-4F78097EB34D}" ShortID="240662358">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="testAttenuation" ID="{CDB42037-C410-43F9-8C45-1301083BFE25}" WorkUnitID="{BB36EF14-83AF-4EEF-869D-903DF4EF4F31}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7ACD82A-4E68-4213-94E3-BF59BE96BFFA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A53F36A-783F-4ABA-A580-815AD9556B2E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Maxwell-the-Cat-Theme" ID="{43890C0F-5466-4AC3-8D3E-2603808CC2E9}">
+							<Language>SFX</Language>
+							<AudioFile>Maxwell-the-Cat-Theme.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="956614318"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Maxwell-the-Cat-Theme" ID="{43890C0F-5466-4AC3-8D3E-2603808CC2E9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Ambient01" ID="{E51861F2-74D5-4034-9764-27DF066133FC}" ShortID="326683007">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7ACD82A-4E68-4213-94E3-BF59BE96BFFA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A53F36A-783F-4ABA-A580-815AD9556B2E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="spaceship-ambient" ID="{4C1CBDC9-DFF8-47B8-81CC-6587B567911E}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.124130718954248"/>
+								<Property Name="LoopEnd" Type="Real64" Value="55.486431372549"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>spaceship-ambient.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="631196902"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="spaceship-ambient" ID="{4C1CBDC9-DFF8-47B8-81CC-6587B567911E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

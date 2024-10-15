@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6e8f084096b7564485b619222ddccd42
     GuidInternal: 
-    m_lastTime: -8584735166551214822
+    m_lastTime: -8584726525342956495
     List:
     - name: MainPrueba
       guid: 620c4a376b013b4d98aff2c97c1065a4
@@ -94,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ad64e2fc2293ad43a9b3beeb4e772e03
     GuidInternal: 
-    m_lastTime: -8584735166552335822
+    m_lastTime: -8584726527388141504
     List:
+    - name: Play_ambient01
+      guid: e9841178f9f1384193076541160a9db9
+      id: 3984220127
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad64e2fc2293ad43a9b3beeb4e772e03
+      - ElementName: Play_ambient01
+        ObjectType: 3
+        guid: e9841178f9f1384193076541160a9db9
+      Path: Events\Default Work Unit\Play_ambient01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_maxtheme
+      guid: 2344e546e8b0e84ab4ac85f2d0930811
+      id: 3075419951
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad64e2fc2293ad43a9b3beeb4e772e03
+      - ElementName: Play_maxtheme
+        ObjectType: 3
+        guid: 2344e546e8b0e84ab4ac85f2d0930811
+      Path: Events\Default Work Unit\Play_maxtheme
+      maxAttenuation: 15
+      maxDuration: -1
+      minDuration: -1
     - name: Play_tema01
       guid: d2aba3e2a0ac4047999cd29a187de426
       id: 963472260
@@ -111,8 +145,8 @@ MonoBehaviour:
         guid: d2aba3e2a0ac4047999cd29a187de426
       Path: Events\Default Work Unit\Play_tema01
       maxAttenuation: 0
-      maxDuration: 38.4
-      minDuration: 38.4
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +204,7 @@ MonoBehaviour:
     m_lastTime: -8584735166551199455
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000004d0000004e000000950000009600000000010000010100002e0100002f010000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000004d0000004e00000095000000960000009e0000009f000000c2000000c300000000010000010100002e0100002f010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
