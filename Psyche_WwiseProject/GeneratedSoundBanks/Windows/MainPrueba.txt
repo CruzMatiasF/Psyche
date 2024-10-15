@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	963472260	Play_tema01			\Default Work Unit\Play_tema01	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	929002771	tema01	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\tema01_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\tema01		7372896
+
