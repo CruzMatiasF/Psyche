@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
 
     public Transform cameraTransform;
 
+    
+
 
     void Start()
     {
@@ -24,6 +26,7 @@ public class PlayerController : MonoBehaviour
         float y = Input.GetAxisRaw("Vertical");
         Vector3 direction = (transform.forward * y + transform.right * x).normalized;
         characterMovement.Move(direction); //pj se mueve
+      
 
         // Crouch
         bool isCrouching = Input.GetKey(KeyCode.LeftShift);

@@ -18,7 +18,14 @@ public class CharacterMovement : MonoBehaviour
     public Transform cameraTransform; // Referencia al Transform de la camara
     public Vector3 crouchCameraOffset = new Vector3(0, -0.3f, 0.25f); // Ajuste del desplazamiento 
     private Vector3 initialCameraPosition; // Pos inicial de la camara
-    
+
+    //cosas del wwise//
+    [Header("Wwise Events")]
+    public AK.Wwise.Event myFootstep;
+    private float footstepTimer = 0f; // Temporizador para controlar la frecuencia de pasos
+    public float footstepInterval = 0.5f; // Intervalo mínimo entre pasos
+    private bool isFootstepPlaying = false;
+
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
@@ -43,6 +50,30 @@ public class CharacterMovement : MonoBehaviour
         Vector3 velocity = direction * movementSpeed;
         velocity.y = rigidbody.velocity.y;
         rigidbody.velocity = velocity;
+
+        //comparacion para los sonidos del paso
+        // Reproducir el sonido de pasos solo si hay movimiento
+        if (direction.magnitude > 0)
+        {
+            if (!isFootstepPlaying)
+            {
+                myFootstep.Post(gameObject); // Reproduce el sonido de pasos
+                isFootstepPlaying = true; // Marcar que el sonido se está reproduciendo
+            }
+
+            footstepTimer += Time.deltaTime; // Aumentar el temporizador
+
+            // Controlar la frecuencia de pasos
+            if (footstepTimer >= footstepInterval)
+            {
+                footstepTimer = 0f; // Reiniciar el temporizador
+                isFootstepPlaying = false; // Permitir que el sonido se reproduzca nuevamente
+            }
+        }
+        else
+        {
+            isFootstepPlaying = false; // Reiniciar si no hay movimiento
+        }
     }
 
     public void Crouch(bool isCrouching)

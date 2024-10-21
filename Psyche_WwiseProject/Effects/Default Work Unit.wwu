@@ -4,6 +4,12 @@
 		<WorkUnit Name="Default Work Unit" ID="{1C0A24E1-7C6E-4ECE-9013-56B65489D540}" PersistMode="Standalone">
 			<ChildrenList>
 				<Effect Name="New_Pitch_Shifter" ID="{CE8FAC81-1B40-4648-AC2A-50F279BBCDA0}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3"/>
+				<Effect Name="EQ_steps" ID="{23D25F80-6C16-420F-8E3B-E5F29686CB84}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand3" Type="Real32" Value="4052"/>
+						<Property Name="GainBand3" Type="Real32" Value="-8"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

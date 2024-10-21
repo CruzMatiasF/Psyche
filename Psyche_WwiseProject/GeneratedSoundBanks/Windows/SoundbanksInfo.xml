@@ -9,13 +9,25 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1211944573" Type="User" Language="SFX" Hash="{E9BA7660-55FD-4C47-BFC3-60E43EEAD5B3}">
+		<SoundBank Id="1211944573" Type="User" Language="SFX" Hash="{126E60BA-C38F-61CB-B662-DD9AFE32041F}">
 			<ShortName>MainPrueba</ShortName>
 			<Path>MainPrueba.bnk</Path>
 			<Media>
+				<File Id="211122864" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PasosPruebaPsyche\pasosPruebaPsyche02.wav</ShortName>
+					<CachePath>SFX/PasosPruebaPsyche/pasosPruebaPsyche02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="521682273" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PasosPruebaPsyche\pasosPruebaPsyche03.wav</ShortName>
+					<CachePath>SFX/PasosPruebaPsyche/pasosPruebaPsyche03_818F3B66.wem</CachePath>
+				</File>
 				<File Id="631196902" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>spaceship-ambient.wav</ShortName>
-					<CachePath>SFX/spaceship-ambient_8E2DAFF2.wem</CachePath>
+					<CachePath>SFX/spaceship-ambient_641048C9.wem</CachePath>
+				</File>
+				<File Id="784764058" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PasosPruebaPsyche\pasosPruebaPsyche01.wav</ShortName>
+					<CachePath>SFX/PasosPruebaPsyche/pasosPruebaPsyche01_818F3B66.wem</CachePath>
 				</File>
 				<File Id="929002771" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>tema01.wav</ShortName>
@@ -26,13 +38,30 @@
 					<CachePath>SFX/Maxwell-the-Cat-Theme_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1875651863" Name="EQ_steps" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
 				<Event Id="3984220127" Name="Play_ambient01" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="631196902"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3075419951" Name="Play_maxtheme" MaxAttenuation="15" DurationType="Infinite">
+				<Event Id="388777123" Name="Play_footstep_test" DurationType="OneShot" DurationMin="1.1314512" DurationMax="1.2714791">
+					<MediaRefs>
+						<MediaRef Id="211122864"/>
+						<MediaRef Id="521682273"/>
+						<MediaRef Id="784764058"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1875651863"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3075419951" Name="Play_maxtheme" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="956614318"/>
 					</MediaRefs>
@@ -44,7 +73,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9B7E7A25-01D8-1F60-ADF9-347586D7A264}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -58,5 +87,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3D4A3C0C-A6D8-C157-FF77-1184E30444D7}</FileHash>
+	<FileHash>{70708A7B-3218-47A2-E634-32C78C6EF889}</FileHash>
 </SoundBanksInfo>

@@ -1,10 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
-	963472260	Play_tema01			\Default Work Unit\Play_tema01	
-	3075419951	Play_maxtheme			\Default Work Unit\Play_maxtheme	
-	3984220127	Play_ambient01			\Default Work Unit\Play_ambient01	
+	388777123	Play_footstep_test			\Default Work Unit\Play_footstep_test	
+	963472260	Play_tema01			\Default Work Unit\box\Play_tema01	
+	3075419951	Play_maxtheme			\Default Work Unit\box\Play_maxtheme	
+	3984220127	Play_ambient01			\Default Work Unit\box\Play_ambient01	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1875651863	EQ_steps	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	631196902	Ambient01	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\spaceship-ambient_8E2DAFF2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient01		5469840
-	929002771	tema01	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\tema01_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\tema01		7372896
-	956614318	Maxwell-the-Cat-Theme	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\Maxwell-the-Cat-Theme_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maxwell-the-Cat-Theme		5529696
+	211122864	pasosPruebaPsyche02	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\PasosPruebaPsyche\pasosPruebaPsyche02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\footstep-test\pasosPruebaPsyche02		199684
+	521682273	pasosPruebaPsyche03	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\PasosPruebaPsyche\pasosPruebaPsyche03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\footstep-test\pasosPruebaPsyche03		199684
+	631196902	Ambient01	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\spaceship-ambient_641048C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\sound-box\Ambient01		5469840
+	784764058	pasosPruebaPsyche01	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\PasosPruebaPsyche\pasosPruebaPsyche01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\footstep-test\pasosPruebaPsyche01		199684
+	929002771	tema01	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\tema01_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\sound-box\tema01		7372896
+	956614318	Maxwell-the-Cat-Theme	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\Maxwell-the-Cat-Theme_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\sound-box\Maxwell-the-Cat-Theme		5529696
 
