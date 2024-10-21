@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 6e8f084096b7564485b619222ddccd42
     GuidInternal: 
-    m_lastTime: -8584726420951500284
+    m_lastTime: -8584720723618526476
     List:
     - name: MainPrueba
       guid: 620c4a376b013b4d98aff2c97c1065a4
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ad64e2fc2293ad43a9b3beeb4e772e03
     GuidInternal: 
-    m_lastTime: -8584726420954278861
+    m_lastTime: -8584720716658059333
     List:
+    - name: box
+      guid: 2966e8de0290ca409eb1bcc1c5e759be
+      id: 546945280
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad64e2fc2293ad43a9b3beeb4e772e03
+      - ElementName: box
+        ObjectType: 4
+        guid: 2966e8de0290ca409eb1bcc1c5e759be
+      Path: Events\Default Work Unit\box
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_ambient01
       guid: e9841178f9f1384193076541160a9db9
       id: 3984220127
@@ -106,13 +123,33 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: ad64e2fc2293ad43a9b3beeb4e772e03
+      - ElementName: box
+        ObjectType: 4
+        guid: 2966e8de0290ca409eb1bcc1c5e759be
       - ElementName: Play_ambient01
         ObjectType: 3
         guid: e9841178f9f1384193076541160a9db9
-      Path: Events\Default Work Unit\Play_ambient01
+      Path: Events\Default Work Unit\box\Play_ambient01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_footstep_test
+      guid: d471717d2a695e43a5dc6a6943e685cd
+      id: 388777123
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ad64e2fc2293ad43a9b3beeb4e772e03
+      - ElementName: Play_footstep_test
+        ObjectType: 3
+        guid: d471717d2a695e43a5dc6a6943e685cd
+      Path: Events\Default Work Unit\Play_footstep_test
+      maxAttenuation: 0
+      maxDuration: 1.2714791
+      minDuration: 1.1314512
     - name: Play_maxtheme
       guid: 2344e546e8b0e84ab4ac85f2d0930811
       id: 3075419951
@@ -123,11 +160,14 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: ad64e2fc2293ad43a9b3beeb4e772e03
+      - ElementName: box
+        ObjectType: 4
+        guid: 2966e8de0290ca409eb1bcc1c5e759be
       - ElementName: Play_maxtheme
         ObjectType: 3
         guid: 2344e546e8b0e84ab4ac85f2d0930811
-      Path: Events\Default Work Unit\Play_maxtheme
-      maxAttenuation: 15
+      Path: Events\Default Work Unit\box\Play_maxtheme
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_tema01
@@ -140,10 +180,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: ad64e2fc2293ad43a9b3beeb4e772e03
+      - ElementName: box
+        ObjectType: 4
+        guid: 2966e8de0290ca409eb1bcc1c5e759be
       - ElementName: Play_tema01
         ObjectType: 3
         guid: d2aba3e2a0ac4047999cd29a187de426
-      Path: Events\Default Work Unit\Play_tema01
+      Path: Events\Default Work Unit\box\Play_tema01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -204,7 +247,7 @@ MonoBehaviour:
     m_lastTime: -8584726420951490315
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000004d0000004e00000095000000960000009e0000009f000000c2000000c300000000010000010100002e0100002f010000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000004d0000004e00000095000000960000009e0000009f000000c2000000c3000000d8000000d9000000da00000000010000010100002e0100002f010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

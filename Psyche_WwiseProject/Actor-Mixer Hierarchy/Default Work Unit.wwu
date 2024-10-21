@@ -95,6 +95,39 @@
 								<ActiveSource Name="tema01" ID="{1580FE4D-05E0-4275-8096-89F9195C4BFD}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="campfire" ID="{03C8F45E-9007-432F-AA0D-97448205B486}" ShortID="914490070">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="testAttenuation" ID="{CDB42037-C410-43F9-8C45-1301083BFE25}" WorkUnitID="{BB36EF14-83AF-4EEF-869D-903DF4EF4F31}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7ACD82A-4E68-4213-94E3-BF59BE96BFFA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A53F36A-783F-4ABA-A580-815AD9556B2E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="campfire" ID="{429167BE-420A-47C7-AD15-FD9648341F33}">
+									<Language>SFX</Language>
+									<AudioFile>campfire.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="347769274"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="campfire" ID="{429167BE-420A-47C7-AD15-FD9648341F33}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<RandomSequenceContainer Name="footstep-test" ID="{CBDB806E-8910-40DE-A78B-A1EDE6A2A390}" ShortID="387036844">

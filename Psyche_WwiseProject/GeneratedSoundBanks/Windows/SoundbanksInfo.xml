@@ -9,13 +9,17 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1211944573" Type="User" Language="SFX" Hash="{126E60BA-C38F-61CB-B662-DD9AFE32041F}">
+		<SoundBank Id="1211944573" Type="User" Language="SFX" Hash="{B2FBA4E2-BDE7-8479-8775-9200C430CF95}">
 			<ShortName>MainPrueba</ShortName>
 			<Path>MainPrueba.bnk</Path>
 			<Media>
 				<File Id="211122864" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PasosPruebaPsyche\pasosPruebaPsyche02.wav</ShortName>
 					<CachePath>SFX/PasosPruebaPsyche/pasosPruebaPsyche02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="347769274" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>campfire.wav</ShortName>
+					<CachePath>SFX/campfire_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="521682273" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PasosPruebaPsyche\pasosPruebaPsyche03.wav</ShortName>
@@ -49,6 +53,11 @@
 						<MediaRef Id="631196902"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4000411161" Name="Play_campfire" MaxAttenuation="12" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="347769274"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="388777123" Name="Play_footstep_test" DurationType="OneShot" DurationMin="1.1314512" DurationMax="1.2714791">
 					<MediaRefs>
 						<MediaRef Id="211122864"/>
@@ -61,7 +70,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="3075419951" Name="Play_maxtheme" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="3075419951" Name="Play_maxtheme" MaxAttenuation="12" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="956614318"/>
 					</MediaRefs>
@@ -87,5 +96,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{70708A7B-3218-47A2-E634-32C78C6EF889}</FileHash>
+	<FileHash>{3DBD47C4-4991-A970-FCD7-12E1CC7ADE86}</FileHash>
 </SoundBanksInfo>

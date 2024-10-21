@@ -6,8 +6,10 @@
 				<SoundBank Name="MainPrueba" ID="{374A0C62-016B-4D3B-98AF-F2C97C1065A4}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_ambient01" ID="{781184E9-F1F9-4138-9307-6541160A9DB9}" WorkUnitID="{FCE264AD-9322-43AD-A9B3-BEEB4E772E03}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_footstep_test" ID="{7D7171D4-692A-435E-A5DC-6A6943E685CD}" WorkUnitID="{FCE264AD-9322-43AD-A9B3-BEEB4E772E03}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_tema01" ID="{E2A3ABD2-ACA0-4740-999C-D29A187DE426}" WorkUnitID="{FCE264AD-9322-43AD-A9B3-BEEB4E772E03}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_maxtheme" ID="{46E54423-B0E8-4AE8-B4AC-85F2D0930811}" WorkUnitID="{FCE264AD-9322-43AD-A9B3-BEEB4E772E03}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_campfire" ID="{DAD33FC4-2A0A-4BF0-BEDC-FEB2322AC60E}" WorkUnitID="{FCE264AD-9322-43AD-A9B3-BEEB4E772E03}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

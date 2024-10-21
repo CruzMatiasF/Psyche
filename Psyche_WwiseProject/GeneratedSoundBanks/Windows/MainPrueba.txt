@@ -3,12 +3,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	963472260	Play_tema01			\Default Work Unit\box\Play_tema01	
 	3075419951	Play_maxtheme			\Default Work Unit\box\Play_maxtheme	
 	3984220127	Play_ambient01			\Default Work Unit\box\Play_ambient01	
+	4000411161	Play_campfire			\Default Work Unit\box\Play_campfire	
 
 Effect plug-ins	ID	Name	Type				Notes
 	1875651863	EQ_steps	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	211122864	pasosPruebaPsyche02	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\PasosPruebaPsyche\pasosPruebaPsyche02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\footstep-test\pasosPruebaPsyche02		199684
+	347769274	campfire	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\campfire_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\sound-box\campfire		4914528
 	521682273	pasosPruebaPsyche03	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\PasosPruebaPsyche\pasosPruebaPsyche03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\footstep-test\pasosPruebaPsyche03		199684
 	631196902	Ambient01	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\spaceship-ambient_641048C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\sound-box\Ambient01		5469840
 	784764058	pasosPruebaPsyche01	F:\proyectos unity\Psyche\Psyche_WwiseProject\.cache\Windows\SFX\PasosPruebaPsyche\pasosPruebaPsyche01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\footstep-test\pasosPruebaPsyche01		199684

@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_AMBIENT01 = 3984220127U;
+        static const AkUniqueID PLAY_CAMPFIRE = 4000411161U;
         static const AkUniqueID PLAY_FOOTSTEP_TEST = 388777123U;
         static const AkUniqueID PLAY_MAXTHEME = 3075419951U;
         static const AkUniqueID PLAY_TEMA01 = 963472260U;
